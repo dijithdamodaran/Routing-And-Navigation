@@ -1,0 +1,24 @@
+
+<div>
+    <h1>{{title}}</h1>
+    <p>products works!</p>
+    <!--display list of prodects-->
+    <table>
+        <thead>
+            <tr>
+                <th>product-Id</th>
+                <th>product-Name</th>
+                <th>product-Cost</th>
+                <th>product-Quantity</th>
+
+            </tr>
+        </thead>
+      
+        <tbody>
+            <tr *ngFor="let product of productsListinproductcomponent">
+                <td><a [routerLink]="['home']"></a></td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
